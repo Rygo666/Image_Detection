@@ -2,6 +2,6 @@
     <string name="app_name">Фотодетектор</string>
     <string name="action_gallery">Галерея</string>
     <string name="permission_request">Приложению необходимо разрешение для доступа к файловому хранилищу</string>
-    <string name="device">Определить объект</string>
+    <string name="device">Опред объект</string>
     <string name="ImageViewDescription">Место для загрузки фото</string>
 </resources>
