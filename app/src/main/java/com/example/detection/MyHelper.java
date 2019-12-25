@@ -18,12 +18,10 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
 import static android.graphics.BitmapFactory.decodeFile;
-import static android.graphics.BitmapFactory.decodeStream;
 
 public class MyHelper {
     private static Dialog mDialog;
