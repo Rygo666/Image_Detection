@@ -40,7 +40,7 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
-            case R.id.action_gallery:
+            case R.id.gallery:
                 checkStoragePermission(RC_STORAGE_PERMS1);
                 break;
 

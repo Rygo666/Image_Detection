@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
     <item
-        android:id="@+id/action_gallery"
+        android:id="@+id/gallery"
         android:orderInCategory="102"
         android:title="@string/action_gallery"
         android:icon="@drawable/ic_gallery"
