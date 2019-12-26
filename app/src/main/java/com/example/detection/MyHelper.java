@@ -40,12 +40,12 @@ public class MyHelper {
     }
 
     public static File createTempFile(File file) {
-        File dir = new File(Environment.getExternalStorageDirectory().getPath() + "/com.example.mlkit");
+        File dir = new File(Environment.getExternalStorageDirectory().getPath()+ "/com.example.mlkit");
         if (!dir.exists() || !dir.isDirectory()) {
             dir.mkdirs();
         }
         if (file == null) {
-            file = new File(dir, "original.jpg");
+            file = new File(dir, "TempImage.jpg");
         }
         return file;
     }
